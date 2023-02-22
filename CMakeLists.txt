@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.1)
+project(games-poc LANGUAGES NONE)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
+
+#add_subdirectory(CliMaedn)
+add_subdirectory(CursesBlocks)
+add_subdirectory(CursesBomber)
+add_subdirectory(CursesPaddle)
+add_subdirectory(CursesSnake)
+#add_subdirectory(NoGardenPuzzle)
+#add_subdirectory(QtTicTacToe)
